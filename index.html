@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id = "titlepage">
+    <h1>Sprouts</h1>
+    <h3> by Euler</h3>
+    <button id = "start">Start</button>
+     
+
+    <button id = "rules">Rules</button>
+    <button id = "about">About</button>
+    <br>
+    <p>number of starting dots</p>
+     <input type="range" min="1" max="3" value="2" class="slider" id="myRange">
+
+    </div> 
+   
+    <canvas id="canvas">
+</canvas>
+<p id = "turnco"></p>
+<div id = "key">
+  Key:
+<p style = "color:green">green: selected to connect 2 sprouts</p>
+<p style = "color:blue">blue: selected to connect 1 sprout to itself</p>
+<p style = "color:orange">orange:sprout has 1 connection </p>
+<p style = "color:yellow">yellow: sprout has 2 connection</p>
+<p style = "color:red">red: sprout has 3 connections and is dead</p>
+
+
+
+
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js"></script>
+  </body>
+</html>
